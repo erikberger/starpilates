@@ -1,0 +1,11 @@
+email: erik.j.berger@gmail.com
+fullname: 'Erik Berger'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$YqvxgmV3Of7AiP.ylSCTwu7se1lmJaDiyX53/ukXV3xM0wJXwJPk.

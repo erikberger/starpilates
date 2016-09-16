@@ -1,0 +1,49 @@
+title: 'Star Pilates'
+author:
+  name: 'Erik Berger'
+  email: erik.j.berger@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Star Pilates is a classical Pilates studio that offers one-on-one private sessions in Philadelphia, PA.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+logo:
+  icon: star-full
+  text: Star Pilates
+  url: null
+userlinks:
+  -
+    text: 'Sample link'
+    url: '#'
+  -
+    text: 'Another Sample link'
+    url: '#'
+header:
+  title: 'Star Pilates'
+  description: 'A private classical pilates studio. <div class="cover-contact">2043 Locust Street, Philadelphia PA 19103<br /><a href="mailto:info@starpilatesphilly.com">info@starpilatesphilly.com</a> | 610.618.0177</div>'
+  buttons:
+    -
+      text: 'Sign Up'
+      url: 'http://tympanus.net/codrops/?p=19439'
+      icon: star-full
+footer:
+  links:
+    -
+      text: 'Terms &amp; Conditions'
+      url: '#'
+    -
+      text: Legals
+      url: '#'
+socialcount:
+  url: 'http://www.getgrav.org'
+  facebook_url: 'https://facebook.com/starpilates'
+  twitter_url: ''
+  linkedin_url: ''
+copyright: 'Land.io 2015. <br> Designed by Peter Finlan, developed by Taty Grassini, exclusively for Codrops.'

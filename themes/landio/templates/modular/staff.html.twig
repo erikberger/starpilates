@@ -1,0 +1,33 @@
+<section id="staff" class="section-staff text-center">
+    <div class="container">
+        <div class="row">
+            {{ page.content }}
+            <div class="staff-wrapper">
+                {% for item in page.header.features %}
+                {% if loop.index==1 %}
+                <div class="col-md-6 col-lg-offset-3 owner">
+                {% else %}
+                <div class="col-md-4">
+                {% endif %}
+                    <div class="card">
+                      {% if item.image %}
+                        <img src="{{ item.image }}" alt="{{ item.title}}" />
+                      {% endif %}
+                        <div class="card-block">
+                            {% if item.title %}
+                                <h4 class="card-title">{{ item.title }}</h4>
+                            {% endif %}
+                            {% if item.subtitle %}
+                                <h6 class="card-subtitle text-muted">{{ item.subtitle }}</h6>
+                            {% endif %}
+                            {% if item.text %}
+                                <!--<p class="card-text">{{ item.text }}</p>-->
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

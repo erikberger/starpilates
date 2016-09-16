@@ -1,0 +1,43 @@
+<nav class="navbar {% if page.header.navbar_class %}{{ page.header.navbar_class }}{% else %}navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top{% endif %}">
+    <div class="container">
+        <a class="navbar-brand" href="{% if not site.logo.url %}{{ base_url_absolute }}{% else %}{{ site.logo.url }}{% endif %}">
+            {% if site.logo.icon %}<span class="icon-{{ site.logo.icon }}"></span>{% endif %}
+            {% if site.logo.text %}<span>{{ site.logo.text }}</span>{% endif %}
+        </a>
+        <a class="navbar-toggler hidden-md-up pull-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+            &#9776;
+        </a>
+        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
+            <span class="icon-user"></span>
+        </a>
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+            <ul class="nav navbar-nav pull-right">
+                {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+                {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+                {% for page in pages.children %}
+                {% if page.visible %}
+                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                <li class="nav-item nav-item-toggable {{ current_page }}">
+                    <a class="nav-link" href="{{ page.url }}">
+                        {{ page.menu }}<span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% for mitem in site.menu %}
+                <li class="nav-item nav-item-toggable">
+                    <a class="nav-link" href="{{ mitem.link }}">{{ mitem.text }}</a>
+                </li>
+                {% endfor %}
+                {% for module in page.collection() %}
+                {% if not module.header.hidemenu %}
+                {% set current_page = (module.active or module.activeChild) ? 'current' : '' %}
+                <li class="nav-item nav-item-toggable {{ current_module }}">
+                    <a class="nav-link" href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
