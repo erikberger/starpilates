@@ -4,7 +4,7 @@
     {% for row in page.header.text|batch(2) %}
     <div class="row p-y-lg">
       {% for text in row %}
-      <div class="col-md-5 {% if not loop.first %}col-md-offset-2 separator-x{% endif %}">
+      <div class="col-md-6 col-lg-offset-3 text-center">
         <p class="wp {% if text.css_suffix %}{{ text.css_suffix }}{% endif %}">
           {{ text.content }}
         </p>
@@ -12,6 +12,12 @@
       {% endfor %}
     </div>
     {% endfor %}
+
+    <ol>
+      {% for row in page.header.list%}
+        <li> {{ row.item }} </li>
+      {% endfor %}
+    </ol>
   </div>
 </div>
 </section>
