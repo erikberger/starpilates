@@ -1,23 +1,42 @@
 <section class="section-text">
-  <div class="container">
-    {{ page.content }}
-    {% for row in page.header.text|batch(2) %}
-    <div class="row p-y-lg">
-      {% for text in row %}
-      <div class="col-md-6 col-lg-offset-3 text-center">
-        <p class="wp {% if text.css_suffix %}{{ text.css_suffix }}{% endif %}">
-          {{ text.content }}
-        </p>
-      </div>
-      {% endfor %}
-    </div>
-    {% endfor %}
+    <div class="container">
+        {{ page.content }}
+        {% for row in page.header.text | batch(2) %}
+            <div class="row">
+                {% for text in row %}
+                    <div class="col-md-6 col-lg-offset-3 text-center">
+                        <p class="wp {% if text.css_suffix %}{{ text.css_suffix }}{% endif %}">
+                            {{ text.content }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
 
-    <ol>
-      {% for row in page.header.list%}
-        <li> {{ row.item }} </li>
-      {% endfor %}
-    </ol>
-  </div>
+        <div class="row text-center wp wp-7 animated fadeInUp">
+            <div class="col-md-3 col-md-offset-3">
+
+                {% for row in page.header.list%}
+                    {% if loop.index < 4 %}
+                        <div class="list-count">
+                            {{ row.item }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="col-md-3">
+
+                {% for row in page.header.list%}
+                    {% if loop.index > 3 %}
+                        <div class="list-count">
+                            {{ row.item }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
 </div>
 </section>

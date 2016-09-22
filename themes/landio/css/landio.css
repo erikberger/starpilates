@@ -5454,6 +5454,14 @@ a.bg-danger:focus, a.bg-danger:hover {
   .p-y-lg {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important; } }
+.section-text {
+  counter-reset: items; }
+
+.list-count {
+  counter-increment: items; }
+  .list-count:before {
+    content: counter(items) "."; }
+
 .navbar-toggler {
   padding: 0;
   margin-top: -.3rem;

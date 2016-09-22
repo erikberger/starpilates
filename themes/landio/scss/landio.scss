@@ -188,6 +188,17 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
   }
 }
 
+.section-text {
+ counter-reset: items;
+}
+
+.list-count {
+  counter-increment: items;
+  &:before {
+    content: counter(items) '.';
+  }
+}
+
 
 //
 // =Navbar
@@ -728,7 +739,7 @@ h3 {
 
 
 
-.staff-wrapper .card {  
+.staff-wrapper .card {
   border: 0;
  img {
   border-radius: 100%;
