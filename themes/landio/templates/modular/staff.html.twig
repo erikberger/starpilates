@@ -9,7 +9,7 @@
                 {% else %}
                 <div class="col-md-4">
                 {% endif %}
-                    <div class="card">
+                    <div class="card" data-toggle="modal" data-target="#bio-{{loop.index}}">
                       {% if item.image %}
                         <img src="{{ page.media.images[item.image].url }}" alt="{{ item.title}}" />
                       {% endif %}
@@ -21,7 +21,24 @@
                                 <h6 class="card-subtitle text-muted">{{ item.subtitle }}</h6>
                             {% endif %}
                             {% if item.text %}
-                                <!--<p class="card-text">{{ item.text }}</p>-->
+                            <div class="modal fade" id="bio-{{loop.index}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                  <h4 class="modal-title">{{ item.title }}'s Bio</h4>
+                                </div>
+                                <div class="modal-body">
+                                  {{ item.text}}
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
                             {% endif %}
                         </div>
                     </div>
