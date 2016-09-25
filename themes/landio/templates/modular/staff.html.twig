@@ -11,7 +11,7 @@
                 {% endif %}
                     <div class="card">
                       {% if item.image %}
-                        <img src="{{ item.image }}" alt="{{ item.title}}" />
+                        <img src="{{ page.media.images[item.image].url }}" alt="{{ item.title}}" />
                       {% endif %}
                         <div class="card-block">
                             {% if item.title %}

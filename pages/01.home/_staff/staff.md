@@ -3,19 +3,19 @@ title: Staff
 features:
   - title: Amy Berger
     subtitle: Owner / Instructor
-    image: http://placehold.it/300
+    image: amy.jpg
     text: Bio goes here.
   - title: Megan Bridge
     subtitle: Instructor
-    image: http://placehold.it/250
+    image: megan.jpg
     text: Bio goes here.
   - title: Katy Dawley
     subtitle: Instructor
-    image: http://placehold.it/250
+    image: katy.jpg
     text: Bio goes here.
   - title: Michael Mallozzi
     subtitle: Instructor
-    image: http://placehold.it/250
+    image: michael.jpg
     text: Bio goes here.
 
 ---

@@ -5486,6 +5486,8 @@ a.bg-danger:focus, a.bg-danger:hover {
   font-size: .9375rem;
   font-weight: 600;
   line-height: 1.2; }
+  .navbar.stuck {
+    background-color: black; }
   @media (max-width: 47.9em) {
     .navbar {
       padding-top: 1.5625rem; } }
@@ -5763,9 +5765,15 @@ body {
   .jumbotron a.jumbolink:focus {
     opacity: 1; }
   .jumbotron .intro-holder {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     max-width: 470px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    color: #fbdddf; }
+    .jumbotron .intro-holder a {
+      color: #fbdddf; }
+    .jumbotron .intro-holder .btn-secondary {
+      background-color: #fbdddf;
+      color: #000; }
 
 @media (max-width: 47.9em) {
   .display-3 {

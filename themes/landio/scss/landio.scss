@@ -234,6 +234,9 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
   font-size: .9375rem;
   font-weight: 600;
   line-height: 1.2;
+  &.stuck{
+    background-color: rgba(0,0,0,1);
+  }
 
   @include media-breakpoint-down(sm) {
     padding-top: 1.5625rem;
@@ -615,9 +618,18 @@ $custom-min-height: 37.5em; // 600
     opacity: 1;
   }
   .intro-holder {
-      background: rgba(0,0,0,0.4);
+      background: rgba(0,0,0,0.6);
       max-width: 470px;
       margin: 0 auto;
+      color: #fbdddf;
+      a {
+        color: #fbdddf;
+      }
+
+      .btn-secondary {
+        background-color: #fbdddf;
+        color: #000;
+      }
   }
 }
 

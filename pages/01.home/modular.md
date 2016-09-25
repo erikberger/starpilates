@@ -64,9 +64,9 @@ content:
         dir: asc
         custom:
             - _features
-            - _text
-            - _pricing
             - _staff
+            - _pricing
+            - _text
             - _testimonials
             - _contact
 ---

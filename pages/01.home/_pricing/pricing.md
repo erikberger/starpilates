@@ -3,52 +3,55 @@ title: Pricing
 pricing:
     -
         title: Single Lesson
-        description: 'Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.'
+        description: '55-minute private session'
         currency: $
         price: 75
         period: /lesson
         features:
             -
-                item: 'Sed risus feugiat'
+                item: 'Purchase lessons one at a time'
             -
-                item: 'Sed risus feugiat fusce eu sit'
+                item: 'Perfect for unpredictable schedules'
             -
-                item: 'Sed risus feugiat fusce'
+                item: 'Work with different instructors'
         button_url: '#'
         button_text: 'Get Started'
         highlighted: false
         additional_css: wp-5
     -
-        title: Professional
-        description: 'Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.'
+        title: Package of 10 Single Lessons
+        description: Ten 55-minute lessons '
         currency: $
-        price: 49
-        period: /month
+        price: 650
+        period:
         features:
+
             -
-                item: 'Sed risus feugiat'
+                item: 'Best Deal!'
             -
-                item: 'Sed risus feugiat fusce eu sit'
+                item: '$65 per lesson'
             -
-                item: 'Sed risus feugiat fusce'
+                item: 'Priority booking'
             -
-                item: 'Sed risus feugiat'
+                item: 'Instructor Consistency'
+            -
+                item: 'Package valid for one year'
         button_url: '#'
         button_text: 'Get Started'
         highlighted: true
     -
-        title: Enterprise
-        description: 'Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.'
+        title: Single Short Lesson
+        description: '30-minute Private Lesson'
         currency: $
-        price: 99
-        period: /month
+        price: 45
+        period: /lesson
         features:
             -
-                item: 'Sed risus feugiat'
+                item: 'Great for lunch breaks'
             -
-                item: 'Sed risus feugiat fusce eu sit'
+                item: 'Perfect for busy professionals'
             -
-                item: 'Sed risus feugiat fusce'
+                item: 'Try different instructors'
         button_url: '#'
         button_text: 'Get Started'
         highlighted: false
