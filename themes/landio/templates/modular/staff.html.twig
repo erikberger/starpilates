@@ -20,28 +20,27 @@
                             {% if item.subtitle %}
                                 <h6 class="card-subtitle text-muted">{{ item.subtitle }}</h6>
                             {% endif %}
-                            {% if item.text %}
-                            <div class="modal fade" id="bio-{{loop.index}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
-                                  <h4 class="modal-title">{{ item.title }}'s Bio</h4>
-                                </div>
-                                <div class="modal-body">
-                                  {{ item.text}}
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-
-
-                            {% endif %}
                         </div>
                     </div>
+
+                    {% if item.text %}
+                    <div class="modal fade" id="bio-{{loop.index}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title">{{ item.title }}'s Bio</h4>
+                        </div>
+                        <div class="modal-body">
+                          {{ item.text}}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    {% endif %}
+
                 </div>
                 {% endfor %}
             </div>
