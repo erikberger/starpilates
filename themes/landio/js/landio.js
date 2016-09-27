@@ -7,6 +7,7 @@
   // @codekit-prepend "bootstrap/collapse.js";
   // @codekit-prepend "bootstrap/dropdown.js";
   // @codekit-prepend "bootstrap/modal.js";
+  // @codekit-prepend "bootstrap/scrollspy.js";
 
   // Waypoints
   // @codekit-prepend "plugins/jquery.waypoints.min.js"

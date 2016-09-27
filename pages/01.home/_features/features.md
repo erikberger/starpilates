@@ -1,5 +1,5 @@
 ---
-title: Features
+title: About
 features:
   - title: One-on-One
     icon: users
