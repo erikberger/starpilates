@@ -5577,7 +5577,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     box-shadow: 0 2px 0 rgba(66, 71, 83, 0.2); } }
 
 @media (min-width: 48em) {
-  .navbar-dark .navbar-nav .active > .nav-link {
+  .navbar-dark .navbar-nav .nav-link.active {
     box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2); } }
 
 .navbar-divider {

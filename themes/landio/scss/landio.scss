@@ -337,7 +337,7 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
   }
 }
 
-.navbar-dark .navbar-nav .active > .nav-link {
+.navbar-dark .navbar-nav .nav-link.active {
   @include media-breakpoint-up(md) {
     box-shadow: 0 2px 0 rgba(255, 255, 255, .2);
   }
