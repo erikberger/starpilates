@@ -161,7 +161,8 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
 .section-pricing,
 .section-testimonials,
 .section-text,
-.section-signup {
+.section-contact,
+.section-staff {
   padding-top: 2.8125rem;
 
   @include media-breakpoint-up(md) {
@@ -173,7 +174,8 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
 .section-pricing,
 .section-text,
 .section-news,
-.section-signup {
+.section-contact,
+.section-staff {
   padding-bottom: 2.8125rem;
 
   @include media-breakpoint-up(md) {

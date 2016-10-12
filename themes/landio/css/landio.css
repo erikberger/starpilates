@@ -5446,7 +5446,8 @@ a.bg-danger:focus, a.bg-danger:hover {
 .section-pricing,
 .section-testimonials,
 .section-text,
-.section-signup {
+.section-contact,
+.section-staff {
   padding-top: 2.8125rem; }
   @media (min-width: 48em) {
     .section-intro,
@@ -5454,21 +5455,24 @@ a.bg-danger:focus, a.bg-danger:hover {
     .section-pricing,
     .section-testimonials,
     .section-text,
-    .section-signup {
+    .section-contact,
+    .section-staff {
       padding-top: 5.625rem; } }
 
 .section-features,
 .section-pricing,
 .section-text,
 .section-news,
-.section-signup {
+.section-contact,
+.section-staff {
   padding-bottom: 2.8125rem; }
   @media (min-width: 48em) {
     .section-features,
     .section-pricing,
     .section-text,
     .section-news,
-    .section-signup {
+    .section-contact,
+    .section-staff {
       padding-bottom: 5.625rem; } }
 
 @media (max-width: 47.9em) {
