@@ -765,7 +765,7 @@ h3 {
 // --------------------------------------------------
 
 .section-features {
-    background-color: #fbdddf;
+    background-color: $brand-primary;
   .card {
     padding-right: 0;
     padding-left: 0;
@@ -995,8 +995,11 @@ figure {
     margin-left: -30px;
   }
   .card-header {
-    color: #fff;
+    color: #4a4e5a;
     background-color: $brand-primary;
+  }
+  .btn-primary {
+    color: #4a4e5a;
   }
 }
 
@@ -1180,6 +1183,11 @@ figure {
 //
 // =Sign up
 // --------------------------------------------------
+
+#map {
+    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
+}
+
 
 .form-group {
   margin-bottom: 1.875rem;
