@@ -30,7 +30,7 @@
 // =Fonts & Bootstrap
 // --------------------------------------------------
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,500,300,700|Lato:400,700");
 @import "icomoon";
 
 // Core variables and mixins
@@ -757,7 +757,11 @@ h3 {
   border: 0;
  img {
   border-radius: 100%;
+  cursor: pointer;
   }
+&:hover {
+  opacity: .7;
+}
 }
 
 //

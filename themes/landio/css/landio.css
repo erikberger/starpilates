@@ -8,7 +8,7 @@
     Author URI: http://tatygrassini.github.io/
 
 -----------------------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,500,300,700|Lato:400,700");
 @font-face {
   font-family: 'icomoon';
   src: url("fonts/icomoon.eot?lgzg4h");
@@ -1761,7 +1761,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-size: 1rem;
   line-height: 2;
   color: #424753;
@@ -5359,7 +5359,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   vertical-align: middle;
   font-weight: normal;
   font-style: normal;
-  font-family: "Raleway", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-size: 0.8125rem;
   line-height: 1.1538;
   user-select: none; }
@@ -5881,7 +5881,10 @@ h3 {
 .staff-wrapper .card {
   border: 0; }
   .staff-wrapper .card img {
-    border-radius: 100%; }
+    border-radius: 100%;
+    cursor: pointer; }
+  .staff-wrapper .card:hover {
+    opacity: .7; }
 
 .section-features {
   background-color: #fbdddf; }
@@ -6412,7 +6415,7 @@ figure {
         margin-bottom: 0; } }
   .card-social small {
     display: block;
-    font-family: "Raleway", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     font-size: .8125rem;
     color: rgba(66, 71, 83, 0.4); }
   .card-social .card-stat {

@@ -62,7 +62,8 @@ $(document).ready(function(){
            var contentString = '<div class="info-window">' +
                    '<h3>Studio Location</h3>' +
                    '<div class="info-content">' +
-                   '2043 Locust Street, #2A<br>Philadelphia, PA 19103' +
+                   '2043 Locust Street, #2A<br>Philadelphia, PA 19103<br>' +
+                   '(610) 618-0177' +
                    '</div>' +
                    '</div>';
 
