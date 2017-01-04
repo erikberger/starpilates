@@ -80,6 +80,7 @@
 // Close icon
 .modal-header .close {
   margin-top: -2px;
+  opacity: 1;
 }
 
 // Title text within header
@@ -93,6 +94,7 @@
 .modal-body {
   position: relative;
   padding: $modal-inner-padding;
+  text-align: left;
 }
 
 // Footer (for actions)

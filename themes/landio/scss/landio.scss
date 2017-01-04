@@ -192,6 +192,11 @@ $font-family-sans-serif-custom: "Lato", sans-serif !default;
 
 .section-text {
  counter-reset: items;
+b {
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+  }
 }
 
 .list-count {
@@ -951,6 +956,7 @@ figure {
     font-weight: 600;
     line-height: 1.1538;
     color: #aeb0b5;
+    padding-left: 5px;
   }
   .list-group {
     margin-bottom: 1rem;

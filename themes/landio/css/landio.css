@@ -4412,7 +4412,7 @@ button.close {
 
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #fbdddf;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -4433,7 +4433,7 @@ button.close {
 
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5; }
+  border-bottom: 1px solid #555; }
   .modal-header:before, .modal-header:after {
     content: " ";
     display: table; }
@@ -4441,7 +4441,8 @@ button.close {
     clear: both; }
 
 .modal-header .close {
-  margin-top: -2px; }
+  margin-top: -2px;
+  opacity: 1; }
 
 .modal-title {
   margin: 0;
@@ -4449,12 +4450,13 @@ button.close {
 
 .modal-body {
   position: relative;
-  padding: 15px; }
+  padding: 15px 30px;
+  text-align: left; }
 
 .modal-footer {
-  padding: 15px;
+  padding: 15px 30px;
   text-align: right;
-  border-top: 1px solid #e5e5e5; }
+  border-top: 1px solid #555; }
   .modal-footer:before, .modal-footer:after {
     content: " ";
     display: table; }
@@ -5481,6 +5483,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-bottom: 0.5rem !important; } }
 .section-text {
   counter-reset: items; }
+  @media (min-width: 62em) {
+    .section-text b {
+      display: block; } }
 
 .list-count {
   counter-increment: items; }
@@ -6024,7 +6029,8 @@ figure {
     font-size: .8125rem;
     font-weight: 600;
     line-height: 1.1538;
-    color: #aeb0b5; }
+    color: #aeb0b5;
+    padding-left: 5px; }
   .pricing-box .list-group {
     margin-bottom: 1rem; }
     @media (min-width: 34em) {

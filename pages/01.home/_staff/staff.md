@@ -12,7 +12,7 @@ features:
   - title: Katy Dawley
     subtitle: Instructor
     image: katy.jpg
-    text: Katy has been a Level 5, Romana’s Pilates Certified Instructor since March of 2015. She has been a student of June Hines of Romana’s Pilates since 1998. Katy has also been a Nurse Midwife for 16 years and she obtained her PHD from University of Pennsylvania in 2001. From 2007 through 2012, Katy was the Program Director of Midwifery at Philadelphia University..
+    text: Katy has been a Level 5, Romana’s Pilates Certified Instructor since March of 2015. She has been a student of June Hines of Romana’s Pilates since 1998. Katy has also been a Nurse Midwife for 16 years and she obtained her PHD from University of Pennsylvania in 2001. From 2007 through 2012, Katy was the Program Director of Midwifery at Philadelphia University.
   - title: Michael Mallozzi
     subtitle: Instructor
     image: michael.jpg
