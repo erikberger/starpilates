@@ -6074,6 +6074,10 @@ figure {
   .pricing-best .btn-primary {
     color: #4a4e5a; }
 
+.pricing-box .btn-primary-outline {
+  color: #6b4e5a;
+  border-color: #6b4e5a; }
+
 .section-testimonials {
   background: #663fb5 url(../img/bg-testimonials.jpg) no-repeat center bottom;
   background-size: cover; }

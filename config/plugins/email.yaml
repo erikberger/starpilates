@@ -1,13 +1,15 @@
 enabled: true
 from: your@email.here
-to: your@email.here
+to: info@starpilatesphilly.com
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
-    user: ''
-    password: ''
+    server: smtp-relay.gmail.com
+    port: 587
+    encryption: tls
+    user: info@starpilatesphilly.com
+    password: contrology2043
   sendmail:
-    bin: '/usr/sbin/sendmail'
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: true

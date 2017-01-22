@@ -1,8 +1,8 @@
 enabled: true
-from: info@starpilatesphilly.com
-from_name: Star Pilates
-to: Erik Berger
-to_name: erik.j.berger@gmail.com
+from:
+from_name:
+to:
+to_name:
 mailer:
   engine: mail
   smtp:
@@ -14,4 +14,4 @@ mailer:
   sendmail:
     bin: '/usr/sbin/sendmail'
 content_type: text/html
-debug: true
+debug: false

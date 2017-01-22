@@ -14,13 +14,13 @@ pricing:
                 item: 'Perfect for unpredictable schedules'
             -
                 item: 'Work with different instructors'
-        button_url: '#'
+        button_url: 'https://clients.mindbodyonline.com/classic/home?studioid=82940'
         button_text: 'Get Started'
         highlighted: false
         additional_css: wp-5
     -
         title: Package of 10 Single Lessons
-        description: Ten 55-minute lessons '
+        description: Ten 55-minute lessons
         currency: $
         price: 650
         period:
@@ -36,7 +36,7 @@ pricing:
                 item: 'Instructor Consistency'
             -
                 item: 'Package valid for one year'
-        button_url: '#'
+        button_url: 'https://clients.mindbodyonline.com/classic/home?studioid=82940'
         button_text: 'Get Started'
         highlighted: true
     -
@@ -52,7 +52,7 @@ pricing:
                 item: 'Perfect for busy professionals'
             -
                 item: 'Try different instructors'
-        button_url: '#'
+        button_url: 'https://clients.mindbodyonline.com/classic/home?studioid=82940'
         button_text: 'Get Started'
         highlighted: false
         additional_css: wp-6

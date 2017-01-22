@@ -30,8 +30,8 @@ header:
   description: 'A private classical pilates studio. <div class="cover-contact">2043 Locust Street, Philadelphia PA 19103<br /><a href="mailto:info@starpilatesphilly.com">info@starpilatesphilly.com</a> | 610.618.0177</div>'
   buttons:
     -
-      text: 'Sign Up'
-      url: 'http://tympanus.net/codrops/?p=19439'
+      text: 'Book Online'
+      url: 'https://clients.mindbodyonline.com/classic/home?studioid=82940'
       icon: star-full
 footer:
   links:
